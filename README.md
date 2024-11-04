@@ -12,6 +12,7 @@
 **2. VLAN:**  A VLAN, aka virtual LAN, separates broadcast domains by adding tags to network packets. VLANs allow network administrators to group hosts under the same switch or between different switches.
 
 **CREATING A VLAN:**
+            
             ip link add link eth0 name eth0.2 type vlan id 2
             ip link add link eth0 name eth0.3 type vlan id 3
 
