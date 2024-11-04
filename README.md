@@ -18,4 +18,4 @@
 
 **8. VXCAN**  Similar to the VETH driver, a VXCAN (Virtual CAN tunnel) implements a local CAN traffic tunnel between two VCAN network devices. When you create a VXCAN instance, two VXCAN devices are created as a pair. When one end receives the packet, the packet appears on the device's pair and vice versa. VXCAN can be used for cross-namespace communication.
 
-*Use a VXCAN configuration when you want to send CAN message across namespaces.
+* Use a VXCAN configuration when you want to send CAN message across namespaces.
