@@ -1,7 +1,19 @@
 # Networking-Keywords
 **1. Bridge:**  A Linux bridge behaves like a network switch. It forwards packets between interfaces that are connected to it. It's usually used for forwarding packets on routers, on gateways, or between VMs and network namespaces on a host.
 
+**CREATING A BRIDGE:**
+
+    ip link add br0 type bridge
+    ip link set eth0 master br0
+    ip link set tap1 master br0
+    ip link set tap2 master br0
+    ip link set veth1 master br0
+
 **2. VLAN:**  A VLAN, aka virtual LAN, separates broadcast domains by adding tags to network packets. VLANs allow network administrators to group hosts under the same switch or between different switches.
+
+**CREATING A VLAN:**
+            ip link add link eth0 name eth0.2 type vlan id 2
+            ip link add link eth0 name eth0.3 type vlan id 3
 
 **3. VXLAN**  VXLAN (Virtual eXtensible Local Area Network) is a tunneling protocol designed to solve the problem of limited VLAN IDs (4,096) in IEEE 802.1q.
 
