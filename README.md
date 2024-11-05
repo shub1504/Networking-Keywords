@@ -53,6 +53,9 @@
        ip netns add net2
        ip link add veth1 netns net1 type veth peer name veth2 netns net2
 
+**VETH PAIR:**  A veth pair is a virtual ethernet device used in Linux networking to create a communication link between two networking namespaces. It is usefull for scenarios like container networking where you need to connect isolated environment. 
+
+
 **7. VCAN**  Similar to the network loopback devices, the VCAN (virtual CAN) driver offers a virtual local CAN (Controller Area Network) interface, so users can send/receive CAN messages via a VCAN interface. CAN is mostly used in the automotive field nowadays.
 
 **Here's how to create a VCAN:**
@@ -69,3 +72,9 @@
           ip netns add net1
           ip netns add net2
           ip link add vxcan1 netns net1 type vxcan peer name vxcan2 netns net2
+
+**9. TUN:**  A TUN is a network TUNnel used to create virtual point to point connections 
+
+**10. TAP:**  A TAP stands for network TAP and refers to a virtual network interface tht operates at the link layer of the OSI model. It allows for the interception of network traffic in a way that can be useful for various networking applicataions,including VPN and packet analysis.
+
+**11. Open VSwitch:**  Its is a open source viertual switch designed for network automtion and managed in a virtualized environment. It enables communication between VM and integrates with various HYPERVISOR and cloud platform. 
