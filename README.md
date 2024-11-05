@@ -78,3 +78,11 @@
 **10. TAP:**  A TAP stands for network TAP and refers to a virtual network interface tht operates at the link layer of the OSI model. It allows for the interception of network traffic in a way that can be useful for various networking applicataions,including VPN and packet analysis.
 
 **11. Open VSwitch:**  Its is a open source viertual switch designed for network automtion and managed in a virtualized environment. It enables communication between VM and integrates with various HYPERVISOR and cloud platform. 
+
+**12. Subnets:**  A subnet (short for subnetwork) is a smaller, logically segmented portion of a larger network. It is used to divide a network into smaller, manageable sections. Each subnet has its own range of IP addresses, which helps in reducing traffic and improving performance and security within a larger network.
+
+**13. Load Balancer:**  A load balancer is a device or software that distributes network or application traffic across multiple servers to ensure no single server becomes overwhelmed. It improves performance, increases reliability, and ensures high availability of applications.
+
+**14. CDN (Content Delivery Network):**  A Content Delivery Network (CDN) is a system of distributed servers designed to deliver web content (e.g., images, videos, webpages) to users based on their geographic location. CDNs help improve the speed, performance, and reliability of web applications by caching content closer to users.
+
+**15. CNI(Container Network Interface):**  CNI stands for Container Network Interface. It is a specification and set of libraries used to manage networking for containerized applications (like those running in Kubernetes or Docker). CNI allows containers to communicate with each other and with external networks.
