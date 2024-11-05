@@ -1,5 +1,5 @@
 # Networking-Keywords
-**1. Bridge:**  A Linux bridge behaves like a network switch. It forwards packets between interfaces that are connected to it. It's usually used for forwarding packets on routers, on gateways, or between VMs and network namespaces on a host.
+**1. Linux Bridge:**  A Linux bridge behaves like a network switch. It forwards packets between interfaces that are connected to it. It's usually used for forwarding packets on routers, on gateways, or between VMs and network namespaces on a host.
 
 **CREATING A BRIDGE:**
 
@@ -77,7 +77,7 @@
 
 **10. TAP:**  A TAP stands for network TAP and refers to a virtual network interface tht operates at the link layer of the OSI model. It allows for the interception of network traffic in a way that can be useful for various networking applicataions,including VPN and packet analysis.
 
-**11. Open VSwitch:**  Its is a open source viertual switch designed for network automtion and managed in a virtualized environment. It enables communication between VM and integrates with various HYPERVISOR and cloud platform. 
+**11. Open VSwitch:**  Its is a open source virtual switch designed for network automation and managed in a virtualized environment. It enables communication between VM and integrates with various HYPERVISOR and cloud platform. 
 
 **12. Subnets:**  A subnet (short for subnetwork) is a smaller, logically segmented portion of a larger network. It is used to divide a network into smaller, manageable sections. Each subnet has its own range of IP addresses, which helps in reducing traffic and improving performance and security within a larger network.
 
