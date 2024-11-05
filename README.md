@@ -33,7 +33,7 @@
       ip link set macvlan1 netns net1
       ip link set macvlan2 netns net2
 
-**5. IPUVLAN**  IPVLAN is similar to MACVLAN with the difference being that the endpoints have the same MAC address.
+**5. IPVLAN**  IPVLAN is similar to MACVLAN with the difference being that the endpoints have the same MAC address.
 * IPVLAN supports L2 and L3 mode. 
 * IPVLAN L2 mode acts like a MACVLAN in bridge mode. The parent interface looks like a bridge or switch.
 * In IPVLAN L3 mode, the parent interface acts like a router and packets are routed between endpoints, which gives better scalability.
